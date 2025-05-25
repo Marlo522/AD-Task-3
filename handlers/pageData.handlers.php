@@ -6,7 +6,7 @@ $navList = [
 
 $carouselList = [
     ["src" => "/assets/img/undercover_highschool.jpg", "alt" => "First slide"],
-    ["src" => "/assets/img/resident_playbook.jpg.jpg", "alt" => "Second slide"],
+    ["src" => "/assets/img/resident_playbook.jpg", "alt" => "Second slide"],
     ["src" => "/assets/img/black_knight.jpg", "alt" => "Third slide"],
 
 ];
