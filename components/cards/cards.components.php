@@ -10,5 +10,6 @@ function renderCard($title, $image, $rating = null, $release_date = null) {
         echo '<div class="card-release">Release Date: ' . htmlspecialchars($release_date) . '</div>';
     }
     echo '</div>';
+    
 }
 ?>
