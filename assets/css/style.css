@@ -10,3 +10,23 @@ header .navbar .nav-link:hover,
 header .navbar .nav-link:focus {
   color: #ffc107 !important;
 }
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+}
+.carousel,
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+  height: 100vh;
+  min-height: 100vh;
+}
+.carousel-item img {
+  object-fit: cover;
+  width: 100vw;
+}
