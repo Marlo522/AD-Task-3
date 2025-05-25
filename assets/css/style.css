@@ -1,0 +1,13 @@
+/* Make the navbar/header background black and text white */
+header .navbar {
+  background-color: #000 !important;
+}
+
+header .navbar .nav-link {
+  color: #fff !important;
+}
+
+header .navbar .nav-link:hover,
+header .navbar .nav-link:focus {
+  color: #ffc107 !important; /* Optional: highlight on hover */
+}
