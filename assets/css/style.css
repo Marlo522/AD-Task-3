@@ -38,7 +38,7 @@ body {
   border-radius: 8px;
   padding: 16px;
   margin: 12px;
-  width: 220px;
+  width: 250px;
   display: inline-block;
   vertical-align: top;
   background: #fff;
@@ -68,20 +68,20 @@ body {
   margin: 2px 0;
 }
 .for-you-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  justify-items: center;
 }
 .series-card {
   flex: 0 0 auto;
 }
-.for-you-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
-  justify-content: center;
-}
 .series-card {
   flex: 0 0 auto;
+}
+h2 {
+  margin: 20px;
+  color: #fff !important;
+  align-items: center;
+  text-align: center;
 }

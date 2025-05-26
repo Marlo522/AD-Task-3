@@ -19,7 +19,7 @@ require_once BASE_PATH . '/components/cards/cards.components.php';
 <body>
     
     <div class="container my-5">
-        <h2 class="mb-4">All Kdrama Series</h2>
+        <h2 class="mb-5">For You</h2>
         <?php AllSeries($dramaList); ?>
     </div>
 </body>
