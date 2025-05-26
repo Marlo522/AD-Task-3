@@ -1,8 +1,11 @@
 <?php 
+require BASE_PATH . '/utils/Output.utils.php';
 
 require_once BASE_PATH . '/handlers/pageData.handlers.php';
 require_once BASE_PATH . '/components/templates/head.components.php';
 require BASE_PATH . '/components/carousel/carousel.components.php';
+require_once BASE_PATH . '/components/cards/cards.components.php';
+
 
 ?>
 <!DOCTYPE html>
@@ -15,5 +18,9 @@ require BASE_PATH . '/components/carousel/carousel.components.php';
 </head>
 <body>
     
+    <div class="container my-5">
+        <h2 class="mb-4">All Kdrama Series</h2>
+        <?php AllSeries($dramaList); ?>
+    </div>
 </body>
 </html>
